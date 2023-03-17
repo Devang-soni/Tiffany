@@ -1,0 +1,140 @@
+.home_body{
+    background-image: url(bg_img.jpg);
+    /* background: -webkit-linear-gradient(90deg, #28282a 0%, #242525 50%, #343434 100%);
+    background: linear-gradient(90deg, #181819 0%, #313234 50%, #323131 100%); 
+    color: white;
+    
+ */ 
+ height: 750px;
+ width: 1472px;
+ top: 0; left: 0;
+ background-repeat: no-repeat;
+ background-size: cover;
+ background-attachment: fixed;
+ position: absolute;      
+}
+
+.header{
+    background-color: rgb(37, 36, 71);
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: block;
+    font: bold;
+
+}
+.logo{
+    text-align: left;
+    float: left;
+    padding: 10px 10px;
+}
+.logo-image{
+    display: inline-block;
+  
+}
+.header-menu{
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 2px ;
+    margin-top: 50px;
+    font-size: 8px;
+}
+.header-menu ul li {
+    display: inline-block;
+    position: relative;
+    margin: 0 20px;
+    bottom: 30px;
+    margin-left: 20px;
+}
+.header-menu ul li a{
+    position: relative; display: block;
+    overflow: hidden;
+    padding: 5px;
+    color: rgb(85, 139, 133);
+    font-size: 21px; line-height: 20px;
+    text-decoration: none;
+    text-align: center;
+}
+.header-menu ul li a:hover{
+    color: rgb(255, 255, 255);
+}
+.home{
+    margin-left: 161px;
+}
+
+.contact{
+    text-align: right;
+    margin-left: 570px;
+
+}
+ /*.background-image{
+    background-image: url(../img/ramon-salinero-vEE00Hx5d0Q-unsplash.jpg);
+
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-attachment: fixed;
+    position: absolute;
+    height: 1000px;
+    width: 1500px;
+    margin-top: 100px;
+} 
+ .background-color{
+    color: rgb(rgb(90, 24, 24) 40%, rgb(47, 186, 47) 30%, rgb(21, 21, 33) 40%);
+} 
+.element{
+    background-image: url(../templates/img/ramon-salinero-vEE00Hx5d0Q-unsplash.jpg);
+    height: 750px;
+    width: 1472px;
+    top: 0; left: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    position: absolute;
+    
+}*/
+b{
+
+    animation: bouncing 0.5s ease 1s infinite alternate both;
+    background: rgb(9, 7, 101);
+    border-radius:  50%;
+    display: inline-block;
+    color: rgb(210, 198, 184);
+    cursor: pointer;
+    font-size: 1.2rem;
+    font-weight: 300;
+    letter-spacing: 0.2em;
+    padding: 1em 2em 1.1em;
+    position: relative;
+    text-decoration: none;
+    text-transform: uppercase;
+    vertical-align: top;
+    margin-top: 360px;
+    margin-left: 50px;
+
+}
+@keyframes bouncing{
+   0%{
+    bottom: 0;
+    box-shadow:  0 0 5px rgb(0,0, 0.5);
+   } 
+   100%{
+    bottom: 50px;
+    box-shadow:0 50px 50px rgb(0,0,1) ;
+   }
+}
+.content{
+    text-align: center;
+    font-size: 15px;
+    margin-left: 30px;
+    color: rgb(255, 255, 255);
+    float: none;
+    display: inline-block;
+    margin-top: 350px; 
+}
+.message{
+    text-align: center;
+    box-sizing: 10px 50px;
+    color: rgb(0, 0, 0);
+
+}

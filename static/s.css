@@ -1,0 +1,185 @@
+.home_body{
+    background-color: rgb(27, 26, 26);
+    
+
+    /* background: -webkit-linear-gradient(90deg, #28282a 0%, #242525 50%, #343434 100%);
+    background: linear-gradient(90deg, #181819 0%, #313234 50%, #323131 100%); */
+        color: white;
+}
+
+.header{
+    background-color: rgb(37, 36, 71);
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: block;
+    font: bold;
+
+}
+.logo{
+    text-align: left;
+    float: left;
+    padding: 10px 10px;
+}
+.logo-image{
+    display: inline-block;
+  
+}
+.header-menu{
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 2px ;
+    margin-top: 50px;
+}
+.header-menu ul{
+    font-size: 5px;
+}
+.header-menu ul li {
+    display: inline-block;
+    position: relative;
+    margin: 0 20px;
+    bottom: 30px;
+    margin-left: 20px;
+}
+.header-menu ul li a{
+    position: relative; display: block;
+    overflow: hidden;
+    padding: 5px;
+    color: rgb(55, 136, 128);
+    font-size: 21px; line-height: 20px;
+    text-decoration: none;
+    text-align: center;
+}
+.header-menu ul li a:hover {color: rgb(255, 255, 255);}
+.home{
+   
+    margin-left: 198px;
+
+}
+
+.contact{
+    text-align: right;
+    margin-left: 534px;
+
+}
+ .background-image{
+    background-image: url(../img/ramon-salinero-vEE00Hx5d0Q-unsplash.jpg);
+
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-attachment: fixed;
+    position: absolute;
+    
+    height: 1000px;
+    width: 1500px;
+    margin-top: 100px;
+} 
+.background-color{
+    color: rgb(rgb(90, 24, 24) 40%, rgb(47, 186, 47) 30%, rgb(21, 21, 33) 40%);
+}
+.home-content{
+    text-transform: uppercase;
+        margin-left: 50px;
+        margin-top: 150px;
+        text-align: center;
+        font-size: 17px;
+        padding-top: 100px;
+        padding-bottom: 100px;
+}
+.home-content .container .h1{
+text-align: center;
+font-size: 25px;
+color: rgb(53, 199, 199);
+} 
+.home-content .container .p{
+    text-align: justify;
+    font-size: 21px;
+    letter-spacing: normal;
+}
+.footer{
+    background-color: rgb(37, 36, 71);
+  
+}
+.footer .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+    gap:1.5rem;
+   
+    padding-left: 20px;
+    padding-bottom: 100px;
+    margin-top: 200px;
+    margin-bottom: -125px;
+}
+
+
+.footer .box-container .box .share a{
+    height:3rem;
+    width:3rem;
+    line-height:3rem;
+    border-radius: .5rem;
+    font-size: 2rem;
+    
+    color: rgb(0, 0, 0);
+    margin-right: .2rem;
+    background: #ffffff;
+    text-align: center;
+    position: relative; 
+    overflow: hidden;
+}
+.footer .box-container .box .share a:hover{
+    background: #12131c;
+    color: #fff;
+}
+
+
+.footer .box-container .box .links{
+    display: block;
+    font-size: 1.2rem;
+    color: blanchedalmond;
+    padding:1rem 0;
+}
+
+.footer .box-container .box .links i{
+    color: blanchedalmond;
+    padding-right: .5rem;
+}
+
+.footer .box-container .box .links:hover i{
+    padding-right: 2rem;
+}
+
+
+.footer .box-container .box p{
+    line-height: 1.8;
+    font-size: 25px;
+    color: rgb(55, 136, 128);
+    padding:1rem 0;
+    font: bold;
+  
+}
+.footer .box-container .box h3{
+    font-size: 20px;
+    color: #ffffff;
+    padding:1rem 0;
+}
+
+
+.footer-logo{
+    text-align: left;
+    float: left;
+   padding:10px 10px;
+
+}
+.footer .credit span{
+    color: rgb(55, 136, 128);
+}
+.footer .credit{
+    text-align: center;
+    margin-top: 2rem;
+    padding:1rem;
+    padding-top: 1.5rem;
+    font-size: 1.5rem;
+    color: #ffffff;
+   
+}
